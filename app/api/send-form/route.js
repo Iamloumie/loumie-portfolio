@@ -16,8 +16,8 @@ export async function POST(req) {
         }
 
         const data = await resend.emails.send({
-            from: 'Contact Form <noreply@loumie-portfolio.vercel.app>',
-            to: 'iamloumie234@gmail.com',
+            from: 'Contact Form <onboarding@resend.dev>',
+            to: 'lawaladedamolaolumide@gmail.com',
             subject: 'New Contact Form Submission from your website portfolio',
             html: `
                 <h1>New Contact Form Submission</h1>
