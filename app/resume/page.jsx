@@ -1,7 +1,7 @@
 "use client";
 
-import { FaHtml5, FaCss3, FaJs, FaReact, FaFigma, FaNodeJs, } from 'react-icons/fa';
-import { SiTailwindcss, SiMysql, SiPython, SiC, SiNextdotjs, SiShell } from 'react-icons/si';
+import { FaHtml5, FaCss3, FaJs, FaReact, FaFigma, FaNodeJs, FaTerminal } from 'react-icons/fa';
+import { SiTailwindcss, SiMysql, SiPython, SiC, SiNextdotjs } from 'react-icons/si';
 
 
 import { Tabs, TabsContent, TabsList, TabsTrigger } from "@/components/ui/tabs";
@@ -172,7 +172,7 @@ const skills = {
       name: "MySQL",
     },
     {
-      icon: <SiShell />,
+      icon: <FaTerminal />,
       name: "Shell Scripting",
     }
   ]
