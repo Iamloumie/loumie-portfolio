@@ -47,6 +47,16 @@ const projects = [
     live: "https://loumiehomes.vercel.app/",
     github: "https://github.com/Iamloumie/real_estate_website",
   },
+  {
+    num: "04",
+    category: "FrontEnd",
+    title: "L-Shoppy",
+    description: "A modern, responsive dashboard application built with React, Synfusion Libary, and Tailwind CSS featuring comprehensive data visualization, e-commerce functionality, and customizable themes.",
+    stack: [{ name: "React"}, { name: "Next.js"}, { name:"Tailwind.css" }, { name: "JavaScript"}, { name: "SyncFusion"}],
+    image: "/assets/work/thumb4.png",
+    live: "https://loumieshoppy.netlify.app/",
+    github: "https://github.com/Iamloumie/loumie_admin_dashboard",
+  },
 ]
 
 const Work = () => {
