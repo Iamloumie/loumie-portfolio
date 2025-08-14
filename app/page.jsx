@@ -28,7 +28,7 @@ const Home = () => {
             {/* Button and socials section */}
             <div className="flex flex-col xl:flex-row items-center gap-8">
               <a
-                href="/public/assets/Lawalcv.pdf"
+                href="https://docs.google.com/document/d/1oSFHoLlOIUWcrFzyWc9d2Nd-DTphrct4h_LOFRz4NaI/export?format=pdf"
                 target="_blank"
                 rel="noopener noreferrer"
                 download
